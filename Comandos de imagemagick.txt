@@ -1,0 +1,6 @@
+Para instalarlo ejec : sudo apt-get install imagemagick
+Para convertir un archivo de jpg a pdf tenemos que configurar el archivo de configuracion y lo hacemos con:
+
+sudo nano /etc/ImageMagick-6/policy.xml    y eliminamos la linea de codigo de la etiqueta <policy domain none pdf>
+
+FINALMENTE PARA CONVERTI EJECUTAMOS : convert imagen.jpg imagen.pdf
